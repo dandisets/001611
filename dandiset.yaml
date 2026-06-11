@@ -31,23 +31,67 @@ assetsSummary:
   variableMeasured:
   - ElectrodeGroup
   - Units
-citation: Mayama, Teruki (2025) Spiking data of dissociated rat cortical cultures
-  on HD-MEAs during repeated-stimulation experiment (Version draft) [Data set]. DANDI
-  Archive. https://dandiarchive.org/dandiset/001611/draft
+citation: Mayama, Teruki; Shimizu, Sota; Takano, Yuki; Akita, Dai; Takahashi, Hirokazu
+  (2026) Spiking data of dissociated rat cortical cultures on HD-MEAs during repeated-stimulation
+  experiment (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001611/draft
 contributor:
 - affiliation: []
   email: mewnya91@gmail.com
+  identifier: 0009-0000-8618-7045
   includeInCitation: true
   name: Mayama, Teruki
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
+- includeInCitation: true
+  name: Shimizu, Sota
+  schemaKey: Person
+- includeInCitation: true
+  name: Takano, Yuki
+  schemaKey: Person
+- identifier: 0009-0009-6445-2587
+  includeInCitation: true
+  name: Akita, Dai
+  schemaKey: Person
+- identifier: 0000-0002-1834-3832
+  includeInCitation: true
+  name: Takahashi, Hirokazu
+  schemaKey: Person
+- awardNumber: 23H03023, 24K20854, 25H02600, 25K22825, 26H02517
+  identifier: https://ror.org/00hhkn466
+  name: Japan Society for the Promotion of Science
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: http://www.jsps.go.jp/
+- awardNumber: 24wm0625401h0001
+  identifier: https://ror.org/004rtk039
+  name: Japan Agency for Medical Research and Development
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: https://www.amed.go.jp
+- identifier: https://ror.org/05v54wa38
+  name: Asahi Glass Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: https://www.af-info.or.jp/
+- name: Secom Science and Technology Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: https://www.secomzaidan.jp/
 dateCreated: '2025-09-21T19:56:37.142310+00:00'
 description: Detected spikes in each session of each experiment. It has 100 sessions
   / 1 experiment × 27 experiment = 2,700 files. Each of them contains information
   about stimulation time, stimulation electrodes, recorded electrodes and detected
-  spikes.
-ethicsApproval: []
+  spikes. See arXiv:2510.04084 (2025) for details on data collection.
+ethicsApproval:
+- contactPoint:
+    schemaKey: ContactPoint
+  identifier: A2024IST003
+  schemaKey: EthicsApproval
 id: DANDI:001611/draft
 identifier: DANDI:001611
 license:
@@ -56,7 +100,20 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001611/versions/draft/assets/
 name: Spiking data of dissociated rat cortical cultures on HD-MEAs during repeated-stimulation
   experiment
-relatedResource: []
+relatedResource:
+- identifier: arXiv preprint arXiv:2510.04084 (2025)
+  name: A preprint “Bridging integrated information theory and the free-energy principle
+    in living neuronal networks”
+  relation: dcite:IsSupplementedBy
+  resourceType: dcite:Preprint
+  schemaKey: Resource
+  url: https://arxiv.org/abs/2510.04084
+- identifier: https://doi.org/10.5281/zenodo.20625936
+  name: Python analysis code
+  relation: dcite:Requires
+  resourceType: dcite:Software
+  schemaKey: Resource
+  url: https://zenodo.org/records/20625936
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.10
