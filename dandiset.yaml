@@ -33,7 +33,7 @@ assetsSummary:
   - Units
 citation: Mayama, Teruki; Shimizu, Sota; Takano, Yuki; Akita, Dai; Takahashi, Hirokazu
   (2026) Spiking data of dissociated rat cortical cultures on HD-MEAs during repeated-stimulation
-  experiment (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001611/draft
+  experiment (Version 0.260611.0634) [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.001611/0.260611.0634
 contributor:
 - affiliation: []
   email: mewnya91@gmail.com
@@ -83,23 +83,37 @@ contributor:
   schemaKey: Organization
   url: https://www.secomzaidan.jp/
 dateCreated: '2025-09-21T19:56:37.142310+00:00'
+datePublished: '2026-06-11T06:34:02.261185+00:00'
 description: Detected spikes in each session of each experiment. It has 100 sessions
   / 1 experiment × 27 experiment = 2,700 files. Each of them contains information
   about stimulation time, stimulation electrodes, recorded electrodes and detected
   spikes. See arXiv:2510.04084 (2025) for details on data collection.
+doi: 10.48324/dandi.001611/0.260611.0634
 ethicsApproval:
 - contactPoint:
     schemaKey: ContactPoint
   identifier: A2024IST003
   schemaKey: EthicsApproval
-id: DANDI:001611/draft
+id: DANDI:001611/0.260611.0634
 identifier: DANDI:001611
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001611/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001611/0.260611.0634/assets.yaml
 name: Spiking data of dissociated rat cortical cultures on HD-MEAs during repeated-stimulation
   experiment
+publishedBy:
+  endDate: '2026-06-11T06:34:02.261185+00:00'
+  id: urn:uuid:14d0b1f7-a936-4eab-819a-9540d624b9ed
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-06-11T06:34:02.261185+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:01729461-d7c0-41ec-b40c-c71e5f49334c
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: arXiv preprint arXiv:2510.04084 (2025)
   name: A preprint “Bridging integrated information theory and the free-energy principle
@@ -117,6 +131,6 @@ relatedResource:
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.10
-url: https://dandiarchive.org/dandiset/001611/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001611/0.260611.0634
+version: 0.260611.0634
 wasGeneratedBy: []
